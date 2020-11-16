@@ -1,0 +1,57 @@
+*:focus {
+  outline: none;
+}
+
+.form-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 25rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+form input {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.checkbox input {
+  width: auto;
+}
+
+.checkbox h5 {
+  padding: 1rem;
+}
+
+.err {
+  color: white;
+  background-color: rgba(240, 84, 84, 0.9);
+  font-size: 1rem;
+  font-weight: 800;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  margin: 1rem 0rem;
+}
